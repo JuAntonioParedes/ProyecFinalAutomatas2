@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+defaults:
+  -
+    scope:
+      path: "README.md"
+    values:
+      permalink: "README.html"
+
+# Doxygen generated per-file doc references.
+include: ["_*.html"]
